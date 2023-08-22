@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://cdn.tailwindcss.com/2.2.7/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="tailwind.css" rel="stylesheet">
+  <title>calisma</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      text-align: center;
+      margin-top: 0;
+      padding-top: 20px;
+      color: #333333;
+    }
+    
+    .product {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    
+    .product img {
+      max-width: 300px;
+      margin-right: 0px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-info {
+      text-align: left;
+    }
+    
+    .product-description {
+      margin-top: 10px;
+      color: #666666;
+      text-align: center;
+    }
+    .image-with-text {
+     display: flex;
+    align-items: center;
+    }
+    .image {
+    max-width: 10000px;
+    margin-right: 10px;
+    }
+    .text {
+    font-size: 14px;
+    }
+    .image-with-text {
+    display: flex;
+    align-items: center;
+    }
+    .paragraf .gizli-metin {
+    display: none;
+    }
+
+    .paragraf.clicked .gizli-metin {
+    display: inline;
+
+    }
+    .paragraf.clicked + .gizli-metin {
+  display: block;
+  }
+  .paragraf {
+  cursor: pointer;
+  }
+
+  .gizli-metin {
+  display: none;
+  }
+
+  .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #dddddd;
+}
+
+.table th {
+  background-color: #f3f3f3;
+  text-align: left;
+}
+
+  </style>
+</head>
+<body class="#84cc16">
+  <div class="container">
+    <div class="row">
+        <h1>SUPPLEMENTLER</h1>
+                  <div class="image-with-text">
+                    <img src="urun.png" alt="Resim" class="image">
+                  </div>
+
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          PROTEİN TOZU NEDİR?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Protein tozu, sporcular ve egzersiz yapan bireyler için önemli bir besin takviyesidir. Bu tozlar, yüksek protein içeriğine sahip olan doğal kaynaklardan elde edilen bir protein kaynağıdır. Protein, kasların onarılması, büyümesi ve güçlenmesi için temel bir yapı taşıdır.</li>
+                          <li>Protein tozları, genellikle sütten veya bitkisel kaynaklardan elde edilen proteinden üretilir.</li>
+                          <li>Protein tozu, antrenman öncesi veya sonrasında kullanılabilir. Antrenman öncesi tüketilen protein tozları, egzersiz sırasında enerji sağlamak ve kas kütlesinin korunmasına yardımcı olmak amacıyla kullanılabilir. Antrenman sonrası tüketilen protein tozları ise kas iyileşmesini desteklemek, kas hasarını azaltmak ve kas kütlesini artırmak için tercih edilir.</li>
+                          <li>Protein tozlarının faydaları arasında kas kütlesinin artırılması, kas onarımı ve yenilenmesinin desteklenmesi, spor performansının artırılması ve kaslardaki protein sentezinin teşvik edilmesi yer alır. Ayrıca protein tozları, beslenme düzenindeki protein alımını artırmak veya yeterli protein alımını sağlamak için kullanılabilir.</li>
+                          <li>Ancak, protein tozları tek başına mucize bir çözüm değildir ve dengeli bir beslenme düzeniyle birlikte kullanılmalıdır. Protein tozlarının kullanımı, bireyin hedeflerine, aktivite seviyesine ve diyetine uygun olarak belirlenmelidir. Ayrıca, protein tozlarının kullanımıyla ilgili herhangi bir sağlık sorunu veya alerji durumu varsa, mutlaka bir sağlık uzmanına danışılması önemlidir.</li>
+                          <li>Sonuç olarak, protein tozları, sporcular ve egzersiz yapan kişiler için pratik ve etkili bir protein kaynağıdır. Ancak, doğru kullanımı ve dengeli bir beslenmeyle birlikte tüketilmeleri önemlidir.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          KULLANIMI
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          1 servisi (1 ölçek; 75 cc = 30 gr) 150 mL su veya az yağlı sütle karıştırarak  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          POZİTİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Kas Kütlesi ve Gücün Artırılması: Protein tozları, kasların onarımı ve büyümesi için gereken temel amino asitleri sağlar. Düzenli olarak protein tozu tüketmek, kas kütlesini artırabilir ve gücü artırabilir.</li>
+                          <li>Hızlı ve Kolay Sindirilebilirlik: Protein tozları, sıvı formda olduğu için sindirimi kolaydır ve vücut tarafından hızla emilir. Bu, kaslara hızlı bir şekilde protein sağlar ve iyileşme sürecini destekler.</li>
+                          <li>Beslenme Düzeneği için Kolaylık: Protein tozu, özellikle yoğun bir yaşam tarzı olan bireyler için beslenme düzenlerine kolaylık sağlar. Hızlı bir şekilde hazırlanabilir ve yanınızda taşınabilir. Böylece protein alımınızı günlük olarak karşılamak daha kolay olur.</li>
+                          <li>Protein Alımının Artırılması: Protein tozları, normal diyetle alınan protein miktarını artırmanın etkili bir yoludur. Özellikle sporcular, yüksek protein ihtiyacını karşılamak için protein tozlarını tercih eder.</li>
+                          <li>Uzun Süre Tokluk Hissi: Protein, diğer makro besin gruplarına kıyasla daha uzun süre tok kalmanızı sağlar. Bu nedenle protein tozu tüketmek, iştahı kontrol etmeye ve kilo yönetimine yardımcı olabilir.</li>
+                          <li>Çeşitli Seçenekler: Protein tozları, farklı protein kaynaklarından elde edilebilir. Bu da kullanıcılara tercih ettikleri protein kaynağına göre çeşitli seçenekler sunar. Örneğin, whey protein, kazein, soya proteini, bezelye proteini gibi çeşitli protein tozu çeşitleri mevcuttur.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          NEGATİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                        <li>Kalori İçeriği: Protein tozları genellikle düşük karbonhidrat ve yağ içerir, ancak kalori içeriği yüksek olabilir. Özellikle kilo verme amacı güden bireyler için, yüksek kalorili protein tozlarının fazla tüketimi kilo kontrolünü zorlaştırabilir.</li>
+                        <li>Sindirim Sorunları: Bazı insanlar protein tozlarına karşı hassasiyet veya sindirim sorunları geliştirebilir. Bu, gaz, şişkinlik, mide rahatsızlığı veya sindirim sorunlarına neden olabilir. Özellikle whey protein hassasiyeti veya laktoz intoleransı olan kişilerde bu sorunlar daha yaygın olabilir.</li>
+                        <li>Ek Madde İçeriği: Bazı protein tozları, tatlandırıcılar, renklendiriciler, koruyucular ve diğer katkı maddeleri içerebilir. Bu ek maddeler bazı insanlarda alerjik reaksiyonlara veya duyarlılıklara neden olabilir.</li>
+                        <li>Protein Kaynağı Sorunları: Bazı protein tozları, doğal olmayan veya düşük kaliteli protein kaynaklarından elde edilebilir. Bu, bazı insanlar için sindirim sorunlarına veya alerjik reaksiyonlara neden olabilir. Bu yüzden protein tozu seçerken, kaliteli ve güvenilir markalara yönelmek önemlidir.</li>
+                        <li>Yetersiz Besin Çeşitliliği: Protein tozlarının kullanımı, tam bir besin çeşitliliğini sağlamak için gerçek yiyecekleri tamamen değiştirirse, diğer besin öğeleri ve mikrobesin maddeleri eksik kalabilir. Bu nedenle, protein tozları, dengeli bir beslenme düzeninin bir parçası olarak kullanılmalı ve gerçek gıdalarla zenginleştirilmelidir.</li>  
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="image-with-text">
+                    <img src="urun.png" alt="Resim" class="image">
+                  </div>
+
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          GAİNER NEDİR?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Gainer (kilo aldırıcı), sporcuların kilo kazanma ve kas kütlesini artırma amacıyla kullandığı bir besin takviyesidir. Gainer'lar, yüksek kalori, protein, karbonhidrat ve bazen yağ içeren bir tozdur. Bu takviye, yoğun antrenman yapan veya zorlu fiziksel aktivitelerle uğraşan bireylerin enerji ihtiyacını karşılamak için kullanılır.</li>
+                          <li>Gainer'lar, kilo almak isteyen bireylere ekstra kalori ve besin sağlamak amacıyla kullanılır. Yoğun antrenmanlar kasların enerji depolarını tüketir ve kaslardaki protein sentezini artırır. Gainer'lar, bu enerji depolarını ve protein sentezini yenilemek için ideal bir seçenektir.</li>
+                          <li>Genellikle gainer'lar, karbonhidratlar ve proteinler açısından zenginleştirilmiş bir toz formunda bulunur. Yüksek kalori içeriği, vücut ağırlığını artırmaya yardımcı olurken, protein içeriği de kasların onarılması ve büyümesi için gerekli olan temel yapı taşlarını sağlar. Karbonhidratlar ise enerji ihtiyacını karşılamak ve hızlı sindirim için kullanılır.                          </li>
+                          <li>Gainer'lar, antrenman sonrası hızlı bir şekilde alınarak kas onarımını destekler ve antrenman öncesi veya ara öğünlerde tüketilebilir. Bu takviye, kilo kazanmak isteyen sporcular için özellikle pratik bir seçenektir, çünkü normal bir diyetle yeterli kalori ve besin almak zor olabilir.</li>
+                          <li>Ancak, gainer'ların dikkatli bir şekilde kullanılması önemlidir. Her bireyin ihtiyaçları farklı olduğundan, doğru dozaj ve kullanım şekli belirlenmelidir. Ayrıca, kilo kazanmanın sağlıklı ve dengeli bir şekilde gerçekleşmesi için gainer'ların tam bir beslenme düzeniyle birlikte kullanılması önerilir.</li>
+                          <li>Gainer'ları kullanmadan önce ürün etiketini dikkatlice okumak, doğru dozajı belirlemek ve sağlık uzmanıyla danışmak önemlidir. Ayrıca, gainer'lar yüksek kalorili olduğundan, kilo kontrolü gerektiren bireylerin dikkatli olması ve gerektiğinde uzmana danışması önemlidir.</li>  
+                          <li>Sonuç olarak, gainer'lar kilo kazanma ve kas kütlesini artırma amacıyla kullanılan bir besin takviyesidir. Doğru şekilde kullanıldığında, kilo alımı ve kas büyümesine destek olabilir. Ancak, kişisel ihtiyaçlarınıza ve sağlık durumunuza uygun kullanımını sağlamak için bir uzmana danışmak önemlidir.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          KULLANIMI
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          1 servisi (5 ölçek:200 g) damak tadınıza göre 375-500 mL su veya süt ile karıştırarak 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          POZİTİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Kalori İhtiyacını Karşılar: Gainer'lar, kilo kazanma amacıyla kullanıldığında yüksek kalori içeriğiyle dikkat çeker. Yoğun antrenman yapan veya hızlı kilo almak isteyen bireyler için kalori ihtiyacını karşılamak önemlidir. Gainer'lar, ekstra kalori sağlayarak bu ihtiyacı karşılamaya yardımcı olabilir.</li>  
+                          <li>Kas Kütlesini Artırır: Gainer'lar, yüksek protein içeriği sayesinde kas kütlesinin artmasını destekleyebilir. Protein, kas onarımı ve büyümesi için temel yapı taşıdır. Gainer'lar, antrenman sonrası alındığında kasların iyileşmesini hızlandırabilir ve kas kütlesinin artmasına yardımcı olabilir.</li>
+                          <li>Hızlı Enerji İçerir: Gainer'lar, içerdikleri karbonhidratlar sayesinde hızlı ve kullanılabilir enerji sağlar. Yoğun fiziksel aktiviteler sırasında enerji depoları tükenir ve bu depoların hızlı bir şekilde yenilenmesi gereklidir. Gainer'lar, antrenman öncesi veya sırasında tüketildiğinde enerji ihtiyacını karşılayabilir.</li>
+                          <li>Pratik Kullanım Sağlar: Gainer'lar, kolayca hazırlanabilen toz formunda gelir ve sıvıyla karıştırılarak tüketilir. Bu, sporcular için pratik bir seçenek oluşturur. Özellikle kilo almak isteyen bireyler için, normal bir diyetle yeterli kalori almak zor olabilir. Gainer'lar, ekstra kalori sağlamak ve beslenme düzenine kolaylıkla entegre olmak için kullanılabilir.</li>
+                          <li>Besin Takviyesi Sağlar: Gainer'lar, içerdikleri vitaminler, mineraller ve diğer besin maddeleri sayesinde beslenmeyi destekleyici bir rol oynayabilir. İyi kalite gainer'lar, dengeli bir beslenme düzeninin bir parçası olarak kullanıldığında vücudun besin ihtiyaçlarını karşılamaya yardımcı olabilir.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          NEGATİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Yüksek Kalori İçeriği: Gainer'lar genellikle yüksek kalorili ürünlerdir. Bu, kilo kontrolü veya kilo verme hedefi olan bireyler için sorun olabilir. Gainer'ların aşırı tüketimi, beklenenden daha fazla kalori alımına ve kilo artışına neden olabilir.</li>
+                          <li>Karbonhidrat Ağırlığı: Gainer'lar, genellikle yüksek karbonhidrat içeriğiyle dikkat çeker. Karbonhidratlar, enerji sağlama amacıyla kullanıldığında ve gereğinden fazla tüketildiğinde kilo artışına yol açabilir. Aşırı karbonhidrat tüketimi, kan şekerinin dalgalanmasına ve insülin seviyelerinin yükselmesine de neden olabilir.</li>
+                          <li>Sindirim Sorunları: Gainer'lar, bazı bireylerde sindirim sorunlarına yol açabilir. Yüksek miktarlarda karbonhidrat ve proteinin hızlı bir şekilde tüketilmesi, sindirim sisteminin zorlanmasına ve sindirim sorunlarına neden olabilir. Bu durum, şişkinlik, gaz, mide rahatsızlığı veya sindirim güçlükleri şeklinde kendini gösterebilir.</li>
+                          <li>Ekstra Katkı Maddeleri: Bazı gainer'lar, tatlandırıcılar, renklendiriciler, koruyucular ve diğer katkı maddeleri içerebilir. Bu ek maddeler, bazı bireylerde alerjik reaksiyonlara veya hassasiyetlere neden olabilir. Bu nedenle, gainer seçimi yaparken, içeriğini dikkatlice incelemek ve kaliteli markaları tercih etmek önemlidir.</li>
+                          <li>Gerçek Yiyeceklerin Yerine Geçebilir: Gainer'lar, tam bir besin çeşitliliği sağlamazlar. Bazı bireyler, gainer'ları tamamen gerçek yiyeceklerin yerine geçirmeye eğilimli olabilir. Bu durumda, diğer besin öğeleri ve mikrobesin maddeleri eksik kalabilir. Bu nedenle, gainer'ları tam bir beslenme düzeninin bir parçası olarak kullanmak ve gerçek gıdalarla zenginleştirmek önemlidir.</li>
+                          <li>Sağlık Sorunlarıyla İlişkisi: Bazı kişilerde böbrek rahatsızlıkları, karaciğer hastalıkları veya metabolik bozukluklar gibi belirli sağlık sorunları varsa, gainer'ların tüketimiyle ilgili riskler olabilir. Bu gibi durumlarda, bir sağlık uzmanına danışmak ve önerilerini almak önemlidir.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="image-with-text">
+                    <img src="urun.png" alt="Resim" class="image">
+                  </div>
+
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          BCAA NEDİR?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>BCAA (Branched-Chain Amino Acids), dallı zincirli amino asitlerin kısaltmasıdır ve vücut için temel amino asitlerden oluşan bir besin takviyesidir. BCAA'lar, leucine, isoleucine ve valine adı verilen üç önemli amino asiti içerir. Bu amino asitler vücut tarafından üretilemez ve dışarıdan besin veya takviye yoluyla alınması gerekir.</li>
+                          <li>BCAA'lar, sporcular ve aktif bireyler arasında yaygın olarak kullanılan bir takviyedir. İşte BCAA'ların bazı önemli özellikleri:</li>
+                          <li>Kas Onarımı ve Büyüme: BCAA'lar, özellikle leucine, kas protein sentezini artırarak kas onarımını ve büyümeyi destekler. Yoğun egzersiz veya antrenman sonrası alındığında, BCAA'lar kaslardaki hasarı azaltabilir ve iyileşme sürecini hızlandırabilir.</li>
+                          <li>Enerji ve Dayanıklılık: BCAA'lar, kaslarda enerji üretimine yardımcı olan bir kaynak olarak kullanılabilir. Uzun süreli ve yorucu egzersizler sırasında kas glikojen depolarının tükenmesini engellemeye ve egzersiz performansını artırmaya yardımcı olabilir.</li>
+                          <li>Katabolizmayı Önleme: Aşırı egzersiz veya düşük kalorili diyetler, kas kütlesinin kaybına yol açabilir. BCAA'lar, katabolizmayı (kas kaybını) önlemeye yardımcı olabilir. Egzersiz öncesi, sırası veya sonrasında alınarak kas proteolizisini azaltabilir ve kasların korunmasına yardımcı olabilir.</li>
+                          <li>Zihinsel Odak ve Performans: BCAA'lar, beyin için önemli bir enerji kaynağıdır ve zihinsel odaklanma ve performansı artırabilir. BCAA'ların beyin fonksiyonları üzerinde olumlu etkileri olduğu düşünülmektedir.</li>
+                          <li>Azalan Kas Ağrısı: Bazı araştırmalar, BCAA takviyesinin egzersiz sonrası kas ağrısını azaltabileceğini göstermiştir. BCAA'lar, kas hasarını azaltarak ve inflamasyonu kontrol ederek egzersiz kaynaklı kas ağrısını hafifletebilir.</li>
+                          <li>BCAA'lar genellikle toz veya kapsül formunda bulunur ve spor öncesi, sırası veya sonrasında tüketilebilir. Ancak, her bireyin ihtiyaçları farklı olduğundan, BCAA takviyesi kullanmadan önce bir sağlık uzmanına veya beslenme uzmanına danışmak önemlidir. Ayrıca, BCAA takviyesi alırken etiket talimatlarına uymak ve doğru dozajı belirlemek önemlidir.</li>
+                          <li>Sonuç olarak, BCAA'lar sporcular ve aktif bireyler arasında popüler bir besin takviyesidir. Kas onarımını destekler, enerji sağlar, kas kaybını azaltır, zihinsel odaklanmayı artırır ve kas ağrısını azaltabilir. Ancak, herkesin ihtiyaçları farklı olduğundan, BCAA takviyesi kullanmadan önce bir uzmana danışmak önemlidir.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          KULLANIMI
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          Çok fazla çeşiti ve boyutu olduğu için tam bir ölçü veremiyoruz.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          POZİTİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Kalori İhtiyacını Karşılar: Gainer'lar, kilo kazanma amacıyla kullanıldığında yüksek kalori içeriğiyle dikkat çeker. Yoğun antrenman yapan veya hızlı kilo almak isteyen bireyler için kalori ihtiyacını karşılamak önemlidir. Gainer'lar, ekstra kalori sağlayarak bu ihtiyacı karşılamaya yardımcı olabilir.</li>
+                          <li>Kas Kütlesini Artırır: Gainer'lar, yüksek protein içeriği sayesinde kas kütlesinin artmasını destekleyebilir. Protein, kas onarımı ve büyümesi için temel yapı taşıdır. Gainer'lar, antrenman sonrası alındığında kasların iyileşmesini hızlandırabilir ve kas kütlesinin artmasına yardımcı olabilir.</li>
+                          <li>Hızlı Enerji İçerir: Gainer'lar, içerdikleri karbonhidratlar sayesinde hızlı ve kullanılabilir enerji sağlar. Yoğun fiziksel aktiviteler sırasında enerji depoları tükenir ve bu depoların hızlı bir şekilde yenilenmesi gereklidir. Gainer'lar, antrenman öncesi veya sırasında tüketildiğinde enerji ihtiyacını karşılayabilir.</li>
+                          <li>Pratik Kullanım Sağlar: Gainer'lar, kolayca hazırlanabilen toz formunda gelir ve sıvıyla karıştırılarak tüketilir. Bu, sporcular için pratik bir seçenek oluşturur. Özellikle kilo almak isteyen bireyler için, normal bir diyetle yeterli kalori almak zor olabilir. Gainer'lar, ekstra kalori sağlamak ve beslenme düzenine kolaylıkla entegre olmak için kullanılabilir.</li>
+                          <li>Besin Takviyesi Sağlar: Gainer'lar, içerdikleri vitaminler, mineraller ve diğer besin maddeleri sayesinde beslenmeyi destekleyici bir rol oynayabilir. İyi kalite gainer'lar, dengeli bir beslenme düzeninin bir parçası olarak kullanıldığında vücudun besin ihtiyaçlarını karşılamaya yardımcı olabilir.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          NEGATİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Eksik Besin Öğeleri: BCAA takviyeleri genellikle sadece dallı zincirli amino asitleri içerir ve diğer önemli besin öğelerini sağlamaz. Bu nedenle, sadece BCAA takviyelerine güvenmek, diğer besinleri ve önemli mikrobesin maddelerini almanızı engelleyebilir. Dengeli bir beslenme düzeni önemlidir.</li>
+                          <li>Eksik Amino Asit Profili: BCAA'lar, vücut için temel amino asitlerden sadece üçünü içerir. Diğer amino asitlerin eksikliği, protein sentezinin tam olarak gerçekleşememesine neden olabilir. Bu nedenle, tam bir amino asit profili sağlamak için BCAA'lar tek başına yeterli olmayabilir.</li>
+                          <li>Yan Etkiler: BCAA takviyeleri genellikle güvenli kabul edilir, ancak bazı insanlar yan etkilere duyarlı olabilir. Nadiren, mide rahatsızlığı, ishal, baş ağrısı, yorgunluk veya alerjik reaksiyonlar gibi yan etkiler ortaya çıkabilir. Herhangi bir olumsuz reaksiyon durumunda, takviye kullanımı bırakılmalı ve bir sağlık uzmanına başvurulmalıdır.</li>
+                          <li>Fazla Tüketim Riski: BCAA takviyeleri, sporcular arasında popülerdir ve bazı kişiler daha yüksek dozlarda kullanmayı tercih edebilir. Ancak, aşırı miktarda BCAA alımı vücutta birikme riski taşır ve böbreklerin ve karaciğerin yükünü artırabilir. Bu nedenle, etiket talimatlarına uygun dozlarda kullanmak önemlidir.</li>
+                          <li>Tıbbi Durumlarla İlişkili Riskler: Bazı kişilerde, BCAA takviyeleri kullanımı bazı tıbbi durumlarla ilişkili riskleri artırabilir. Örneğin, karaciğer veya böbrek rahatsızlığı olan kişilerin BCAA takviyeleri kullanmadan önce doktorlarına danışmaları önemlidir. Ayrıca, bazı ilaçlarla etkileşime girebilir, bu nedenle herhangi bir ilaç kullanıyorsanız, doktorunuza danışmalısınız.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="image-with-text">
+                    <img src="urun.png" alt="Resim" class="image">
+                  </div>
+
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          KREATİN MONOHİDRAT NEDİR?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Kreatin monohidrat, vücutta doğal olarak bulunan bir bileşiktir ve sporcular arasında yaygın olarak kullanılan bir besin takviyesidir. Kreatin monohidrat, enerji üretiminde kritik bir rol oynayan fosfokreatin olarak da bilinen bir bileşiktir. Vücutta kreatin monohidrat depoları, yüksek yoğunluklu egzersizlerde ATP (adenozin trifosfat) üretimi için hızlı bir enerji kaynağı sağlar.</li>
+                          <li>İşte kreatin monohidratın bazı önemli özellikleri</li>
+                          <li>Güç ve Performans Artışı: Kreatin monohidrat, enerji üretimindeki rolü nedeniyle güç ve performansı artırabilir. Sporcular, kreatin takviyesi alarak daha yoğun antrenmanlar yapabilir, tekrar sayısını artırabilir ve daha hızlı toparlanabilir.</li>
+                          <li>Kas Kütlesinin Artması: Kreatin monohidrat, su tutulumunu artırarak kas hücrelerinin hacmini artırabilir. Bu, kas kütlesinde görülen kısmi bir artışa yol açabilir. Ayrıca, kreatin monohidratın, protein sentezini uyararak kas büyümesini desteklediği öne sürülmektedir.</li>
+                          <li>Hızlı Enerji Yenilenmesi: Yüksek yoğunluklu egzersizlerde kaslarda biriken ATP hızla tükenir. Kreatin monohidrat, ATP'nin yeniden sentezlenmesini hızlandırarak enerji depolarını hızla yeniler. Bu, daha yoğun ve uzun süreli egzersizlere olanak sağlar.</li>
+                          <li>Beyin ve Sinir Fonksiyonu: Kreatin monohidrat, beyin ve sinir fonksiyonlarını desteklemek için önemli bir rol oynar. Araştırmalar, kreatin takviyesinin kognitif fonksiyonları, odaklanmayı ve belleği iyileştirebileceğini göstermektedir.</li>
+                          <li>Kreatin Eksikliği Düzeltme: Bazı insanlar düşük kreatin seviyelerine sahip olabilir. Özellikle vegan veya vejetaryen beslenme düzenine sahip kişilerde kreatin eksikliği daha yaygın olabilir. Kreatin takviyesi, eksikliği düzeltmek ve normal kreatin seviyelerini sağlamak için kullanılabilir.</li>
+                          <li>Kreatin monohidrat genellikle toz formunda bulunur ve su veya meyve suyu gibi bir içecek ile karıştırılarak tüketilir. Kreatin takviyesi kullanmadan önce, özellikle böbrek veya karaciğer sorunları olan kişilerin bir sağlık uzmanına danışması önemlidir. Ayrıca, doğru dozlama ve kullanım talimatlarına uyulması gerekmektedir.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          KULLANIMI
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          Spor sonrası 1 servisi 500 ml su ile karıştırarak.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          POZİTİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Güç ve Performans Artışı: Kreatin monohidrat, enerji üretimindeki rolü sayesinde kas gücünü ve performansını artırabilir. Yüksek yoğunluklu egzersizlerde daha fazla enerji sağlayarak, daha yoğun antrenman yapabilme yeteneğini artırır.</li>
+                          <li>Kasta Su Tutulumu: Kreatin monohidrat, kas hücrelerine su tutulmasına neden olabilir. Bu, kasların daha dolgun ve hacimli görünmesine yardımcı olabilir. Kasta su tutulumu ayrıca kas protein sentezini artırabilir ve kas büyümesini teşvik edebilir.</li>
+                          <li>Hızlı Enerji Yenilenmesi: Kreatin monohidrat, ATP sentezini hızlandırarak enerji depolarını yeniler. Bu, daha yoğun ve uzun süreli egzersizlerde daha fazla enerji sağlayarak performansı artırabilir. Aynı zamanda daha hızlı toparlanma süreleri sağlayabilir.</li>
+                          <li>Kas Kütlesinin Artması: Kreatin monohidratın kullanımıyla birlikte, kaslarda su tutulması ve protein sentezindeki artış, kas kütlesinde artışa yol açabilir. Bu, kasların daha hacimli ve gelişmiş görünmesini sağlayabilir.</li>
+                          <li>Kognitif Fonksiyonları Destekleme: Kreatin monohidrat, beyin ve sinir fonksiyonlarını desteklemede önemli bir rol oynar. Kreatin, beyin hücrelerinde enerji üretimi için kullanılır ve kognitif fonksiyonları, odaklanma, hafıza ve düşünme yeteneklerini destekleyebilir.</li>
+                          <li>Kolay Kullanım: Kreatin monohidrat genellikle toz formunda bulunur ve su veya meyve suyu gibi bir içeceğe karıştırılarak kolayca tüketilebilir. Bu, kullanımının kolay olmasını ve sporcuların veya aktif bireylerin günlük rutinlerine entegre etmesini sağlar.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          NEGATİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Su Tutulumu ve Kiloda Artış: Kreatin monohidrat kullanımı, kaslarda su tutulmasına neden olabilir. Bu su tutulumu geçici olabilir, ancak bazı kişilerde ödem veya şişkinlik gibi etkiler görülebilir. Ayrıca, su tutulumu nedeniyle kilo artışı yaşanabilir.</li>
+                          <li>Mide Rahatsızlıkları: Bazı insanlar kreatin monohidrat kullanımıyla birlikte mide rahatsızlıkları yaşayabilir. Mide bulantısı, karın ağrısı, şişkinlik, ishal veya sindirim sorunları gibi yan etkiler ortaya çıkabilir. Herkes bu etkileri yaşamaz, ancak hassaslık durumunda bu tür yan etkiler ortaya çıkabilir.</li>
+                          <li>Böbrek ve Karaciğer Yükü: Kreatin monohidrat kullanımı, yüksek dozlarda ve uzun süreli kullanımda böbrek ve karaciğer üzerinde bir yük oluşturabilir. Özellikle böbrek rahatsızlığı olan kişilerde böbrek fonksiyonlarında sorunlara neden olabilir. Bu nedenle, böbrek veya karaciğer rahatsızlığı olan kişilerin kreatin takviyesi kullanmadan önce doktorlarına danışmaları önemlidir.</li>
+                          <li>Dehidrasyon Riski: Kreatin monohidrat kullanımı sırasında yeterli miktarda su içmek önemlidir. Kreatin, vücutta su tutulumunu artırabilir, bu da dehidrasyon riskini artırabilir. Bu nedenle, kreatin takviyesi alırken bol su içmek ve vücudun su dengesini korumak önemlidir.</li>
+                          <li>İlaç Etkileşimleri: Kreatin monohidratın, bazı ilaçlarla etkileşime girebileceği bilinmektedir. Özellikle böbrek veya karaciğer fonksiyonlarını etkileyen ilaçlarla birlikte kullanıldığında, bu etkileşimler daha da önemli olabilir. Eğer herhangi bir ilaç kullanıyorsanız, kreatin takviyesi kullanmadan önce doktorunuza danışmalısınız.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="image-with-text">
+                    <img src="urun.png" alt="Resim" class="image">
+                  </div>
+
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          PRE WORKOUT NEDİR?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Pre-workout, sporcular tarafından antrenman öncesinde kullanılan bir besin takviyesidir. Genellikle toz veya içecek formunda bulunur ve antrenman performansını artırmak, enerji seviyelerini yükseltmek ve odaklanmayı sağlamak amacıyla kullanılır. Pre-workout takviyeleri, içerdikleri aktif bileşenler sayesinde bir dizi olumlu etki sağlayabilir.</li>
+                          <li>İşte pre-workout takviyelerinin bazı önemli özellikleri</li>
+                          <li>Enerji ve Dayanıklılık Artışı: Pre-workout takviyeleri genellikle kafein gibi uyarıcılar içerir. Kafein, enerji seviyelerini yükselterek antrenman sırasında daha yüksek bir performans ve dayanıklılık sağlayabilir. Böylece, daha yoğun ve uzun süren egzersizler yapabilirsiniz.</li>
+                          <li>Odaklanma ve Konsantrasyon: Pre-workout takviyeleri, içerdikleri bileşenler aracılığıyla zihinsel odaklanma ve konsantrasyonu artırabilir. Bu, antrenman sırasında dikkatinizi daha iyi bir şekilde toplamanıza ve hedeflerinize odaklanmanıza yardımcı olabilir.</li>
+                          <li>Kan Akışının Artması: Bazı pre-workout takviyeleri, nitrik oksit gibi bileşenler içerebilir. Nitrik oksit, kan damarlarının genişlemesine yardımcı olarak daha iyi bir kan akışı sağlar. Bu, kaslara daha fazla oksijen ve besin taşınmasını destekler ve kas performansını artırır.</li>
+                          <li>Kas Dayanıklılığı ve Onarımı: Pre-workout takviyeleri, içerdikleri bazı amino asitler veya diğer besin maddeleri sayesinde kas dayanıklılığını artırabilir ve kas iyileşmesini destekleyebilir. Bu, antrenman sırasında daha uzun süre egzersiz yapmanıza ve kas yorgunluğunu azaltmanıza yardımcı olabilir.</li>
+                          <li>Antrenman Performansının Artması: Pre-workout takviyeleri, enerji seviyelerini artırarak, dayanıklılığı yükselterek ve kaslara daha iyi bir kan akışı sağlayarak genel antrenman performansını artırabilir. Bu, hedeflerinize ulaşmanızı ve antrenmanlardan maksimum fayda sağlamanızı destekler.</li>
+                          <li>Pre-workout takviyelerinin içerdiği bileşenler ve etkileri markadan markaya ve üründen ürüne farklılık gösterebilir. Her bireyin ihtiyaçları ve toleransı farklı olduğundan, pre-workout takviyeleri kullanmadan önce bir sağlık uzmanına veya beslenme uzmanına danışmak önemlidir. Dozaj talimatlarına uygun kullanmak ve önerilen sınırlar içinde kalmak da önemlidir.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          KULLANIMI
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          1 ölçek (15g) ürünü 300 mL su ile karıştırarak antrenmandan önce kullanabilirsiniz.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          POZİTİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Enerji Artışı: Pre-workout takviyeleri, içerdikleri kafein ve diğer uyarıcılar sayesinde enerji seviyelerini yükseltebilir. Bu, antrenman öncesindeki yorgunluğu azaltır ve daha enerjik bir şekilde egzersiz yapmanızı sağlar.</li>
+                          <li>Performans ve Dayanıklılık Artışı: Pre-workout takviyeleri, içerdikleri bileşenler aracılığıyla antrenman performansını artırabilir. Örneğin, nitrik oksit içeren takviyeler, kan akışını artırarak kaslara daha fazla oksijen ve besin taşınmasını sağlar. Bu da dayanıklılığı artırır ve egzersiz süresini uzatabilir.</li>
+                          <li>Odaklanma ve Konsantrasyon: Pre-workout takviyeleri, içerdikleri bazı bileşenler sayesinde zihinsel odaklanma ve konsantrasyonu artırabilir. Bu, egzersiz sırasında dikkatinizi hedefe odaklamanızı kolaylaştırır ve performansınızı artırır.</li>
+                          <li>Kas Pompası: Bazı pre-workout takviyeleri, nitrik oksit veya diğer bileşenler içerir ve kas pompasını artırabilir. Bu, kaslarda daha dolgun ve hacimli bir görünüm sağlar ve antrenman motivasyonunu artırabilir.</li>
+                          <li>Hızlı İyileşme: Pre-workout takviyeleri, içerdikleri bazı amino asitler veya antioksidanlar sayesinde kas iyileşmesini destekleyebilir. Bu, antrenman sonrası toparlanmayı hızlandırır ve kas hasarını azaltabilir.</li>
+                          <li>Antrenman Motivasyonu: Pre-workout takviyeleri, içerdikleri uyarıcılar ve enerji artışıyla antrenman motivasyonunu artırabilir. Daha yüksek enerji seviyeleri ve performans artışı, sporcuların antrenmanlara daha istekli ve motive olmalarını sağlar.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          NEGATİF YÖNLERİ
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <ul>
+                          <li>Uyku Sorunları: Pre-workout takviyelerinde bulunan uyarıcılar, özellikle kafein, uyku düzeninizi etkileyebilir. Gece geç saatlerde veya öğleden sonra tüketildiğinde uyku sorunlarına neden olabilir. Bu nedenle, antrenmandan birkaç saat önce kullanmak ve uyku düzeninizi etkileyeceğini göz önünde bulundurmak önemlidir.</li>
+                          <li>Kalp Hızı ve Kan Basıncı Etkileri: Pre-workout takviyelerindeki uyarıcılar, kalp atış hızını artırabilir ve kan basıncını etkileyebilir. Bazı insanlar, yüksek dozlarda veya hassas oldukları durumlarda kalp çarpıntısı, hızlı nefes alma, titreme veya yüksek kan basıncı gibi etkileri deneyimleyebilir. Bu nedenle, kardiyovasküler sağlık sorunları olan veya hassas bireylerin pre-workout takviyeleri kullanmadan önce doktorlarına danışmaları önemlidir.</li>
+                          <li>Sindirim Sorunları: Bazı pre-workout takviyeleri, içerdikleri bileşenler nedeniyle mide rahatsızlıklarına neden olabilir. Mide bulantısı, karın ağrısı, ishal veya sindirim sorunları gibi etkiler ortaya çıkabilir. Her birey bu etkileri deneyimlemeyebilir, ancak hassaslık durumunda bu tür yan etkiler ortaya çıkabilir.</li>
+                          <li>Bağımlılık ve Tolerans Gelişimi: Pre-workout takviyelerinde bulunan uyarıcılar, kullanımı devam ettikçe bağımlılığa ve tolerans gelişimine neden olabilir. Vücut, sürekli olarak aynı dozda uyarıcıya alışabilir, bu da istenen etkiyi elde etmek için daha yüksek dozajlara ihtiyaç duyulmasına yol açabilir.</li>
+                          <li>İlaç Etkileşimleri: Pre-workout takviyeleri, kullanılan diğer ilaçlarla etkileşime girebilir. Özellikle kalp veya kan basıncı ilaçlarıyla birlikte kullanıldığında riskli etkileşimler oluşabilir. Eğer herhangi bir ilaç kullanıyorsanız, pre-workout takviyelerini kullanmadan önce doktorunuza danışmanız önemlidir.</li>
+                        </ul>  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+              
+                  
+      </div>
+  </div>
+  <script>
+    var paragrafElement = document.querySelector('.paragraf');
+
+    paragrafElement.addEventListener('click', function() {
+      paragrafElement.classList.toggle('clicked');
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var accordionButtons = document.querySelectorAll('.accordion-button');
+  
+      accordionButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+          var accordionCollapse = this.nextElementSibling;
+          var isCollapsed = accordionCollapse.classList.contains('collapse');
+  
+          if (isCollapsed) {
+            accordionCollapse.classList.remove('collapse');
+            accordionCollapse.classList.add('show');
+          } else {
+            accordionCollapse.classList.remove('show');
+            accordionCollapse.classList.add('collapse');
+          }
+        });
+      });
+    });
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>
